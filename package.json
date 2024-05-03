@@ -1,0 +1,59 @@
+{
+  "name": "material-cra",
+  "version": "5.0.0",
+  "private": true,
+  "proxy": "http://192.168.0.109:8080",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@iconify/icons-eva": "^1.2.6",
+    "@iconify/icons-ic": "^1.2.13",
+    "@iconify/react": "^4.1.1",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "latest",
+    "@mui/styles": "^5.15.15",
+    "@reduxjs/toolkit": "^2.2.3",
+    "autosuggest-highlight": "^3.3.4",
+    "axios": "^1.6.8",
+    "change-case": "^5.4.4",
+    "date-fns": "^3.6.0",
+    "emoji-mart": "^5.6.0",
+    "formik": "^2.4.5",
+    "framer-motion": "^11.1.7",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet-async": "^2.0.4",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-intersection-observer": "^9.10.1",
+    "react-query": "^3.39.3",
+    "react-redux": "^9.1.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "latest",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "simplebar-react": "^3.2.4",
+    "yup": "^1.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

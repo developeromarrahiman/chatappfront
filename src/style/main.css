@@ -1,0 +1,26 @@
+.noscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.noscroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.chat_main {
+  position: relative;
+}
+
+/* .chat_main::after {
+    content: '';
+    background-image: url('/public/images/tick.png');
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+    transform: translateX(24px);
+
+
+} */
