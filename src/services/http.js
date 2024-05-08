@@ -3,7 +3,7 @@ import { getToken } from './getToken';
 
 // const baseURL = process.env.BASE_URL;
 const http = axios.create({
-  baseURL: `/api`,
+  baseURL: `https://chatappbackend-40df.onrender.com/api`,
   // baseURL: `/`,
   timeout: 30000,
 });
