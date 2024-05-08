@@ -51,10 +51,10 @@ export default function LoginForm() {
     },
   });
   // mutate
-  const { mutate } = useMutation(api.login, {
+  const { mutate, isLoading } = useMutation(api.login, {
     onSuccess: async (res) => {
       setLoading(false);
-      if (res.data.alert) {
+      if (res?.data?.alert) {
         setdata(res.data);
         setopen(true);
       } else {
@@ -111,7 +111,7 @@ export default function LoginForm() {
         open={open}
         setOpen={setopen}
         data={data?.alert}
-        onConfirm={() => mutateApprove(data?.alert._id)}
+        onConfirm={() => mutateApprove(data?.alert?._id)}
         handleClose={handleClose}
       />
 
@@ -199,7 +199,7 @@ export default function LoginForm() {
             sx={{
               textTransform: 'capitalize',
             }}
-            loading={loading}
+            loading={isLoading}
           >
             Sign In
           </LoadingButton>

@@ -26,7 +26,7 @@ import { useSelector } from 'react-redux';
 
 const RootStyle = styled('div')(({ theme }) => ({
   flexShrink: 0,
-  minHeight: 92,
+  minHeight: 73,
   display: 'flex',
   alignItems: 'center',
   padding: theme.spacing(0, 3),
